@@ -2,9 +2,9 @@ package ctsstudentclub.sist.com.eventmanagement;
 
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             String password = args[1];
 
             ArrayList params = new ArrayList();
-            params.add(new BasicNameValuePair("phone_no",username));
+            params.add(new BasicNameValuePair("username", username));
             params.add(new BasicNameValuePair("password",password));
             JSONObject json = jsonParser.makeHttpRequest(URL, "POST", params);
 
@@ -79,8 +79,8 @@ public class MainActivity extends AppCompatActivity {
             try {
                 if (result != null) {
                     Toast.makeText(getApplicationContext(), result.getString("message"), Toast.LENGTH_LONG).show();
-                    if (((result.getString("sucess")).equals("1"))) {
-                        Intent i = new Intent(getApplicationContext(), HomeActivity.class);
+                    if (((result.getString("success")).equals("1"))) {
+                        Intent i = new Intent(getApplicationContext(), ListActivity.class);
                         startActivity(i);
                     }
 
