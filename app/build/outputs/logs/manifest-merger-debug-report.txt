@@ -1,111 +1,182 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/e00a526ad0215c9d8170795079203063/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.volley:volley:1.0.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/2648ad30780e0a8433a94c6fb4bea08c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-21.0.3.aar/078bb7573c1ded04fb335b6065b4d771/AndroidManifest.xml:14:4-20:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/1f38db3bd9abf116aafb5665686900f3/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6358b4c0ce3f057acdacc107c0718219/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f0255684fa2f044a824b7e7b4186238a/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/dfe9a49ac127ebc301152ce448fce8d7/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/56c7eec83128191a3bc22f4280826efd/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/65c066024eb3def4844cb9e18b0b4488/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eb4954e8a69e62a28647bb633bf22c54/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e985acbaee1c97a30e85d0eb2254d71c/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1b442543c0918bbb1a1cd673c69f4979/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e11844a700d6763f8b78cdcec0329706/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7497e24c4d337e08e89f5bc797e68618/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c58cfcd4300122ff47cea869010d9aa2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1b442543c0918bbb1a1cd673c69f4979/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7497e24c4d337e08e89f5bc797e68618/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/16a484d34d710ba610412715d592927a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:cardview-v7:21.0.3] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/6c527ae3327cb6e77a475441bee745a8/AndroidManifest.xml:14:4-17:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6358b4c0ce3f057acdacc107c0718219/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/8cf4ae06f08ca81850617e9142e79673/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/f0bcb41b4a48508698156557e4881dda/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/627849b80132534374fcc70da0357dd3/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/842b5083d40a97114589ec3ee1d50066/AndroidManifest.xml:2:1-6:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/7ff5bf612f776d8c3bd554ce2aeec860/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:3:5-54
 		INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-24:12
 		INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:1-24:12
 		INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:4:5-78
+	android:name
+		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:5:5-75
+	android:name
+		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:5:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:7:5-22:19
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/e00a526ad0215c9d8170795079203063/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/e00a526ad0215c9d8170795079203063/AndroidManifest.xml:7:5-20
+MERGED from [com.android.volley:volley:1.0.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/2648ad30780e0a8433a94c6fb4bea08c/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/2648ad30780e0a8433a94c6fb4bea08c/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-21.0.3.aar/078bb7573c1ded04fb335b6065b4d771/AndroidManifest.xml:17:5-19:19
+MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-21.0.3.aar/078bb7573c1ded04fb335b6065b4d771/AndroidManifest.xml:17:5-19:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/1f38db3bd9abf116aafb5665686900f3/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/1f38db3bd9abf116aafb5665686900f3/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6358b4c0ce3f057acdacc107c0718219/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6358b4c0ce3f057acdacc107c0718219/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f0255684fa2f044a824b7e7b4186238a/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f0255684fa2f044a824b7e7b4186238a/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/dfe9a49ac127ebc301152ce448fce8d7/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/dfe9a49ac127ebc301152ce448fce8d7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/56c7eec83128191a3bc22f4280826efd/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/56c7eec83128191a3bc22f4280826efd/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/65c066024eb3def4844cb9e18b0b4488/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/65c066024eb3def4844cb9e18b0b4488/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eb4954e8a69e62a28647bb633bf22c54/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eb4954e8a69e62a28647bb633bf22c54/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-v4:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e985acbaee1c97a30e85d0eb2254d71c/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e985acbaee1c97a30e85d0eb2254d71c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1b442543c0918bbb1a1cd673c69f4979/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1b442543c0918bbb1a1cd673c69f4979/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e11844a700d6763f8b78cdcec0329706/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e11844a700d6763f8b78cdcec0329706/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7497e24c4d337e08e89f5bc797e68618/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7497e24c4d337e08e89f5bc797e68618/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c58cfcd4300122ff47cea869010d9aa2/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c58cfcd4300122ff47cea869010d9aa2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1b442543c0918bbb1a1cd673c69f4979/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1b442543c0918bbb1a1cd673c69f4979/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7497e24c4d337e08e89f5bc797e68618/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7497e24c4d337e08e89f5bc797e68618/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/16a484d34d710ba610412715d592927a/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/16a484d34d710ba610412715d592927a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:21.0.3] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/6c527ae3327cb6e77a475441bee745a8/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:cardview-v7:21.0.3] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/6c527ae3327cb6e77a475441bee745a8/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6358b4c0ce3f057acdacc107c0718219/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6358b4c0ce3f057acdacc107c0718219/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/8cf4ae06f08ca81850617e9142e79673/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/8cf4ae06f08ca81850617e9142e79673/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/f0bcb41b4a48508698156557e4881dda/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/f0bcb41b4a48508698156557e4881dda/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/627849b80132534374fcc70da0357dd3/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/627849b80132534374fcc70da0357dd3/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/842b5083d40a97114589ec3ee1d50066/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/842b5083d40a97114589ec3ee1d50066/AndroidManifest.xml:5:5-20
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/7ff5bf612f776d8c3bd554ce2aeec860/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/7ff5bf612f776d8c3bd554ce2aeec860/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:13:9-40
 activity#ctsstudentclub.sist.com.eventmanagement.MainActivity
-ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:14:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:18:27-74
+activity#ctsstudentclub.sist.com.eventmanagement.HomeActivity
+ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:21:9-59
+	android:name
+		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml:21:19-47
 uses-sdk
 INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml
 INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/e00a526ad0215c9d8170795079203063/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/e00a526ad0215c9d8170795079203063/AndroidManifest.xml:5:5-44
+MERGED from [com.android.volley:volley:1.0.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/2648ad30780e0a8433a94c6fb4bea08c/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/2648ad30780e0a8433a94c6fb4bea08c/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-21.0.3.aar/078bb7573c1ded04fb335b6065b4d771/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-21.0.3.aar/078bb7573c1ded04fb335b6065b4d771/AndroidManifest.xml:15:5-42
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/1f38db3bd9abf116aafb5665686900f3/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/1f38db3bd9abf116aafb5665686900f3/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6358b4c0ce3f057acdacc107c0718219/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6358b4c0ce3f057acdacc107c0718219/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f0255684fa2f044a824b7e7b4186238a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f0255684fa2f044a824b7e7b4186238a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/dfe9a49ac127ebc301152ce448fce8d7/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/dfe9a49ac127ebc301152ce448fce8d7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/56c7eec83128191a3bc22f4280826efd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/56c7eec83128191a3bc22f4280826efd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/65c066024eb3def4844cb9e18b0b4488/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/65c066024eb3def4844cb9e18b0b4488/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eb4954e8a69e62a28647bb633bf22c54/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eb4954e8a69e62a28647bb633bf22c54/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e985acbaee1c97a30e85d0eb2254d71c/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e985acbaee1c97a30e85d0eb2254d71c/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1b442543c0918bbb1a1cd673c69f4979/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1b442543c0918bbb1a1cd673c69f4979/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e11844a700d6763f8b78cdcec0329706/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e11844a700d6763f8b78cdcec0329706/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7497e24c4d337e08e89f5bc797e68618/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7497e24c4d337e08e89f5bc797e68618/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c58cfcd4300122ff47cea869010d9aa2/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c58cfcd4300122ff47cea869010d9aa2/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1b442543c0918bbb1a1cd673c69f4979/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1b442543c0918bbb1a1cd673c69f4979/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7497e24c4d337e08e89f5bc797e68618/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7497e24c4d337e08e89f5bc797e68618/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/16a484d34d710ba610412715d592927a/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/16a484d34d710ba610412715d592927a/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:21.0.3] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/6c527ae3327cb6e77a475441bee745a8/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:cardview-v7:21.0.3] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/6c527ae3327cb6e77a475441bee745a8/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6358b4c0ce3f057acdacc107c0718219/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6358b4c0ce3f057acdacc107c0718219/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/8cf4ae06f08ca81850617e9142e79673/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/8cf4ae06f08ca81850617e9142e79673/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/f0bcb41b4a48508698156557e4881dda/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/f0bcb41b4a48508698156557e4881dda/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/627849b80132534374fcc70da0357dd3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/627849b80132534374fcc70da0357dd3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/842b5083d40a97114589ec3ee1d50066/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/842b5083d40a97114589ec3ee1d50066/AndroidManifest.xml:4:5-43
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/7ff5bf612f776d8c3bd554ce2aeec860/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/7ff5bf612f776d8c3bd554ce2aeec860/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml
@@ -120,6 +191,12 @@ INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidMani
 		INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml
 		ADDED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/rishikumar/Desktop/EventManagement/app/src/main/AndroidManifest.xml
+activity#android.support.v7.widget.TestActivity
+ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-21.0.3.aar/078bb7573c1ded04fb335b6065b4d771/AndroidManifest.xml:18:9-115
+	android:label
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-21.0.3.aar/078bb7573c1ded04fb335b6065b4d771/AndroidManifest.xml:18:19-59
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-21.0.3.aar/078bb7573c1ded04fb335b6065b4d771/AndroidManifest.xml:18:60-113
 meta-data#android.support.VERSION
 ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/1f38db3bd9abf116aafb5665686900f3/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f0255684fa2f044a824b7e7b4186238a/AndroidManifest.xml:23:9-25:38
@@ -128,20 +205,34 @@ MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/rishikum
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/dfe9a49ac127ebc301152ce448fce8d7/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-v4:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e985acbaee1c97a30e85d0eb2254d71c/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-v4:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e985acbaee1c97a30e85d0eb2254d71c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1b442543c0918bbb1a1cd673c69f4979/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1b442543c0918bbb1a1cd673c69f4979/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e11844a700d6763f8b78cdcec0329706/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e11844a700d6763f8b78cdcec0329706/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7497e24c4d337e08e89f5bc797e68618/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7497e24c4d337e08e89f5bc797e68618/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c58cfcd4300122ff47cea869010d9aa2/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/c58cfcd4300122ff47cea869010d9aa2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1b442543c0918bbb1a1cd673c69f4979/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/1b442543c0918bbb1a1cd673c69f4979/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7497e24c4d337e08e89f5bc797e68618/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/7497e24c4d337e08e89f5bc797e68618/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/16a484d34d710ba610412715d592927a/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-compat:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/16a484d34d710ba610412715d592927a/AndroidManifest.xml:26:9-28:38
 	android:value
 		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/1f38db3bd9abf116aafb5665686900f3/AndroidManifest.xml:28:13-35
 	android:name
 		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/1f38db3bd9abf116aafb5665686900f3/AndroidManifest.xml:27:13-51
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/56c7eec83128191a3bc22f4280826efd/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/56c7eec83128191a3bc22f4280826efd/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/56c7eec83128191a3bc22f4280826efd/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/56c7eec83128191a3bc22f4280826efd/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eb4954e8a69e62a28647bb633bf22c54/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eb4954e8a69e62a28647bb633bf22c54/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/eb4954e8a69e62a28647bb633bf22c54/AndroidManifest.xml:24:13-58
 meta-data#android.arch.lifecycle.VERSION
 ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/rishikumar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/7ff5bf612f776d8c3bd554ce2aeec860/AndroidManifest.xml:25:9-27:47
 	android:value
