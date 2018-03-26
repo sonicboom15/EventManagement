@@ -15,7 +15,7 @@ android {
     defaultConfig {
         multiDexEnabled true
         applicationId "ctsstudentclub.sist.com.eventmanagement"
-        minSdkVersion 21
+        minSdkVersion 24
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
