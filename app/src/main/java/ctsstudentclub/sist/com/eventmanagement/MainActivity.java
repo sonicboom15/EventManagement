@@ -50,7 +50,13 @@ public class MainActivity extends AppCompatActivity {
                 attemptLogin.execute(editUser.getText().toString(), editPassword.getText().toString());
             }
         });
-
+        btnRegister.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent signup = new Intent(getApplicationContext(),SignupActivity.class);
+                startActivity(signup);
+            }
+        });
     }
 
     private class AttemptLogin extends AsyncTask<String, String, JSONObject>{

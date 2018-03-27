@@ -1,258 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    tools:context=".SignupActivity">
-    <ScrollView
-        xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="ctsstudentclub.sist.com.eventmanagement.SignupActivity">
+
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Register"
+            android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:paddingTop="20dp"
-            android:paddingLeft="10dp"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="96dp">
-
-            <TextView
-                android:id="@+id/register"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Register"
-                android:textColor="#1976D2"
-                android:layout_gravity="center"
-                android:textSize="40dp"
-                android:textStyle="bold|italic"/>
+            android:layout_below="@+id/textView3"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/linear1">
 
             <EditText
                 android:id="@+id/name"
-                android:layout_width="300dp"
-                android:layout_height="40dp"
-                android:layout_margin="5dp"
-                android:layout_marginStart="13dp"
-                android:layout_gravity="center"
-                android:background="#11000000"
-                android:drawableLeft="@drawable/ic_action_name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint=" Name"
-                android:inputType="text"
-                android:textStyle="normal"
-                android:layout_alignStart="@+id/register"
-                android:layout_below="@+id/register"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="65dp" />
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/regno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Register Number"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/dob"
-                android:layout_width="300dp"
-                android:layout_height="40dp"
-                android:layout_margin="5dp"
-                android:layout_marginStart="13dp"
-                android:layout_gravity="center"
-                android:background="#11000000"
-                android:drawableLeft="@drawable/ic_action_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint=" Date of Birth"
-                android:inputType="date"
-                android:textStyle="normal"
-                android:layout_alignStart="@+id/name"
-                android:layout_below="@+id/name"
-                android:clickable="true"
-                android:editable="false"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="65dp" />
+                android:hint="Date of Birth"
+                android:inputType="date" />
 
             <EditText
-                android:id="@+id/collage"
-                android:layout_width="300dp"
-                android:layout_height="40dp"
-                android:layout_margin="5dp"
-                android:layout_marginStart="13dp"
-                android:layout_gravity="center"
-                android:background="#11000000"
-                android:drawableLeft="@drawable/ic_action__school"
+                android:id="@+id/contactnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint=" Collage Name"
-                android:inputType="text"
-                android:textStyle="normal"
-                android:layout_alignStart="@+id/dob"
-                android:layout_below="@+id/dob"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="65dp" />
+                android:hint="Contact Number"
+                android:inputType="phone" />
 
             <EditText
-                android:id="@+id/dept"
-                android:layout_width="300dp"
-                android:layout_height="40dp"
-                android:layout_margin="5dp"
-                android:layout_marginStart="13dp"
-                android:layout_gravity="center"
-                android:background="#11000000"
-                android:drawableLeft="@drawable/ic_action_department1"
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint=" Department"
-                android:inputType="text"
-                android:textStyle="normal"
-                android:layout_alignStart="@+id/collage"
-                android:layout_below="@+id/collage"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="65dp" />
-            <EditText
-                android:id="@+id/roll"
-                android:layout_width="300dp"
-                android:layout_height="40dp"
-                android:layout_margin="5dp"
-                android:layout_marginStart="13dp"
-                android:layout_gravity="center"
-                android:background="#11000000"
-                android:drawableLeft="@drawable/ic_action_contact"
-                android:ems="10"
-                android:hint=" Roll no"
-                android:inputType="text"
-                android:textStyle="normal"
-                android:layout_alignStart="@+id/dept"
-                android:layout_below="@+id/dept"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="65dp" />
-            <EditText
-                android:id="@+id/mail"
-                android:layout_width="300dp"
-                android:layout_height="40dp"
-                android:layout_margin="5dp"
-                android:layout_marginStart="13dp"
-                android:layout_gravity="center"
-                android:background="#11000000"
-                android:drawableLeft="@drawable/ic_action_mail"
-                android:ems="10"
-                android:hint=" E-mail"
-                android:inputType="textEmailAddress"
-                android:textStyle="normal"
-                android:layout_alignStart="@+id/roll"
-                android:layout_below="@+id/roll"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="65dp" />
-            <EditText
-                android:id="@+id/year"
-                android:layout_width="300dp"
-                android:layout_height="40dp"
-                android:layout_margin="5dp"
-                android:layout_marginStart="13dp"
-                android:layout_gravity="center"
-                android:background="#11000000"
-                android:drawableLeft="@drawable/ic_action__school"
-                android:ems="10"
-                android:hint=" Year"
-                android:inputType="textPhonetic"
-                android:textStyle="normal"
-                android:layout_alignStart="@+id/mail"
-                android:layout_below="@+id/mail"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="65dp" />
-
-            <EditText
-                android:id="@+id/aoi"
-                android:layout_width="300dp"
-                android:layout_height="40dp"
-                android:layout_margin="5dp"
-                android:layout_marginStart="13dp"
-                android:layout_gravity="center"
-                android:background="#11000000"
-                android:drawableLeft="@drawable/ic_action_interest"
-                android:ems="10"
-                android:hint="Area of Interest"
-                android:inputType="text"
-                android:textStyle="normal"
-                android:layout_alignStart="@+id/year"
-                android:layout_below="@+id/year"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="65dp" />
-
-            <EditText
-                android:id="@+id/phone"
-                android:layout_width="300dp"
-                android:layout_height="40dp"
-                android:layout_margin="5dp"
-                android:layout_marginStart="13dp"
-                android:layout_gravity="center"
-                android:background="#11000000"
-                android:drawableLeft="@drawable/ic_action_contact"
-                android:ems="10"
-                android:hint="Contact No"
-                android:inputType="number"
-                android:textStyle="normal"
-                android:layout_alignStart="@+id/interest"
-                android:layout_below="@+id/interest"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="65dp" />
+                android:hint="Address"
+                android:inputType="textPostalAddress" />
 
             <EditText
                 android:id="@+id/password"
-                android:layout_width="300dp"
-                android:layout_height="40dp"
-                android:layout_margin="5dp"
-                android:layout_marginStart="13dp"
-                android:layout_gravity="center"
-                android:background="#11000000"
-                android:drawableLeft="@drawable/ic_action_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint=" Password"
-                android:inputType="textPassword"
-                android:textStyle="normal"
-                android:layout_alignStart="@+id/contact"
-                android:layout_below="@+id/contact"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="65dp" />
+                android:hint="Password"
+                android:inputType="textPassword" />
 
             <EditText
-                android:id="@+id/confirm"
-                android:layout_width="300dp"
-                android:layout_height="40dp"
-                android:layout_margin="5dp"
-                android:layout_marginStart="13dp"
-                android:layout_gravity="center"
-                android:background="#11000000"
-                android:drawableLeft="@drawable/ic_action_pass"
-                android:ems="10"
-                android:hint=" Confirm password"
-                android:inputType="textPassword"
-                android:textStyle="normal"
-                android:layout_alignStart="@+id/password"
-                android:layout_below="@+id/password"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="65dp" />
-
-
-            <LinearLayout
+                android:id="@+id/cpassword"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:paddingLeft="08dp"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="59dp"
-                tools:layout_editor_absoluteY="0dp">
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Confirm Password"
+                android:inputType="textPassword" />
 
-                <Button
-                    android:id="@+id/button"
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear1"
+                android:text="Area of Interest"
+                android:textAppearance="@android:style/TextAppearance.Material.DialogWindowTitle" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/tech"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:paddingTop="5dp"
-                    android:layout_alignStart="@+id/confirm"
-                    android:layout_below="@+id/confirm"
-                    android:text="Signup"
-                    android:background="#90CAF9"
-                    android:textColor="#ffffff"
-                    android:layout_margin="20dp"/>
-            </LinearLayout>
+                    android:layout_weight="1"
+                    android:text="Techinal" />
+
+                <RadioButton
+                    android:id="@+id/nontech"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Non Technical" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorAccent"
+                android:text="Submit" />
+
         </LinearLayout>
-    </ScrollView>
 
-
-</LinearLayout>
+    </RelativeLayout>
+</ScrollView>

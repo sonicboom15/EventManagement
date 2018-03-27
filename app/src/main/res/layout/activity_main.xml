@@ -44,9 +44,7 @@
                 android:ems="10"
                 android:hint=" Username"
                 android:inputType="text"
-                android:textStyle="normal"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="65dp" />
+                android:textStyle="normal" />
 
 
             <EditText
