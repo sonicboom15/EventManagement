@@ -168,7 +168,7 @@
         
         
         
-        public function createNewRegisterUser($phone_no, $password, $email,$name,$reg_no,$college_name,$dob,$dept_id){
+        public function createNewRegisterUser($phone_no, $password, $email,$name,$reg_no,$dob,$aoi,$address){
             
             
             $isExisting = $this->isEmailUsernameExist($phone_no, $email);
@@ -186,8 +186,8 @@
                 
                 if($isValid)
                 {
-                    $privilege_id=2;
-                $query = "insert into ".$this->db_table." (`phone_no`, `email`, `name`, `reg_no`, `college_name`, `dob`, `privilege_id`, `dept_id`, `password`, `createdAt`) VALUES ('$phone_no','$email','$name','$reg_no','$college_name','$dob','$privilege_id','$dept_id' ,'$password', NOW())";
+                $privilege_id=0;
+                $query = "insert into ".$this->db_table." (`phone_no`, `email`, `name`, `reg_no`, `dob`, `privilege_id`, `address`, `password`,'aoi', `createdAt`) VALUES ('$phone_no','$email','$name','$reg_no','$college_name','$dob','$privilege_id','$address' ,'$password','$aoi', NOW())";
               
                 // echo $query;
                 $inserted = mysqli_query($this->db->getDb(), $query);

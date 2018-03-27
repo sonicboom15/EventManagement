@@ -1,33 +1,33 @@
 <?php
     
     require_once 'user.php';
-    $name=$_POST['name'];
-    $reg_no=$_POST['reg_no'];
-    $dob=$_POST['dob'];
-    $college_name=$_POST['college_name'];
-    $dept_id=$_POST['dept_id'];
-   // $Year=$_POST['year'];
-   // $AOI=$_POST['AOI'];
-    $phone_no = $_POST['phone_no'];
-    $password=$_POST['password'];
-    $email = $_POST['email'];
-   
- 
-   // $username = $_POST['username'];
+    if(isset($_POST['name']))
+        $name=$_POST['name'];
+    if(isset($_POST['reg']))
+        $reg=$_POST['reg'];
+    if(isset($_POST['dob']))
+        $dob=$_POST['dob'];
+    if(isset($_POST['aoi']))
+        $aoi=$_POST['aoi'];
+    if(isset($_POST['address']))
+        $address=$_POST['address'];
+    if(isset($_POST['phno']))
+        $phone_no = $_POST['phno'];
+    if(isset($_POST['password']))
+        $password=$_POST['password'];
+    if(isset($_POST['email']))
+        $email = $_POST['email'];
         
       $userObject = new User();
     
-    //Registration
     
-    // if(!empty($phone_no) && !empty($password) && !empty($email) && !empty($name) && !empty($reg_no) && !empty($college_name) && !empty($Year) &&!empty($AOI) && !empty($dob)){
-        
+    if(!empty($name)&&!empty($reg)&&!empty($dob)&&!empty($aoi)&&!empty($address)&&!empty($phone_no)&&!empty($password)&&!empty($email))  { 
         $hashed_password = md5($password);
         
-        $json_registration = $userObject->createNewRegisterUser($phone_no, $hashed_password, $email,$name,$reg_no,$college_name,$dob,$dept_id);
+        $json_registration = $userObject->createNewRegisterUser($phone_no, $hashed_password, $email,$name,$reg,$dob,$aoi,$address);
         
         echo json_encode($json_registration);
         
-    //}
-    
+    }
    
     ?>

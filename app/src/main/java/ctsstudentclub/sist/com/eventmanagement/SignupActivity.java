@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -89,6 +90,8 @@ public class SignupActivity extends AppCompatActivity {
                     pass = args[6],
                     aoi = args[7];
 
+            Log.i("Params Recieved","Params Success");
+
             ArrayList params = new ArrayList();
             params.add(new BasicNameValuePair("name",name));
             params.add(new BasicNameValuePair("email",email));
@@ -99,7 +102,10 @@ public class SignupActivity extends AppCompatActivity {
             params.add(new BasicNameValuePair("pass",pass));
             params.add(new BasicNameValuePair("aoi",aoi));
 
+            Log.i("List","List Success");
             JSONObject json = jsonParser.makeHttpRequest(URL,"POST",params);
+
+            Log.i("POST Request","Posted");
 
             return json;
 
