@@ -25,7 +25,7 @@ import java.util.Locale;
 
 public class SignupActivity extends AppCompatActivity {
 
-    String URL = "rishikumar.online/event_manager/signup.php";
+    String URL = "http://www.rishikumar.online/event_manager/signup.php";
 
     JSONParser jsonParser = new JSONParser();
 
@@ -121,8 +121,11 @@ public class SignupActivity extends AppCompatActivity {
                         startActivity(i);
                     }
                 }
+                else{
+                    Toast.makeText(getApplicationContext(),"Unable to Retrive data from the server",Toast.LENGTH_SHORT).show();
+                }
             }catch (JSONException e){
-                e.printStackTrace();;
+                e.printStackTrace();
             }
         }
     }

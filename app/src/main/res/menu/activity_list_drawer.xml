@@ -4,19 +4,25 @@
     tools:showIn="navigation_view">
     <item android:title="Events">
         <menu>
-        <item
-            android:id="@+id/nav_camera"
-            android:title="Add an Event" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:title="View Unapproved Events" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:title="Edit your Events" />
+            <item
+                android:id="@+id/nav_wishlist"
+                android:title="View Wishlist"/>
+            <item
+                android:id="@+id/nav_addevent"
+                android:title="Add an Event" />
+            <item
+                android:id="@+id/nav_unapprovedevents"
+                android:title="View Unapproved Events" />
+            <item
+                android:id="@+id/nav_events"
+                android:title="Edit your Events" />
         </menu>
     </item>
     <item android:title="Manage">
         <menu>
+            <item
+                android:id="@+id/nav_manage"
+                android:title="Edit Account Details"/>
             <item
                 android:id="@+id/nav_share"
                 android:title="Logout" />
