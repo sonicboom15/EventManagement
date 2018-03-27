@@ -1,5 +1,6 @@
 package ctsstudentclub.sist.com.eventmanagement;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -87,7 +88,12 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), result.getString("message"), Toast.LENGTH_LONG).show();
                     if (((result.getString("success")).equals("1"))) {
                         Intent i = new Intent(getApplicationContext(), ListActivity.class);
+                        Bundle bundle = new Bundle();
+                        bundle.putString("user_id",result.getString("user_id"));
+                        bundle.putString("role",result.getString("privilege"));
+                        i.putExtras(bundle);
                         startActivity(i);
+                        finish();
                     }
 
                 }

@@ -41,14 +41,14 @@ public class SignupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
-                editname = (EditText)findViewById(R.id.name);
-                editemail = (EditText)findViewById(R.id.email);
-                editdob = (EditText)findViewById(R.id.dob);
-                editreg = (EditText)findViewById(R.id.regno);
-                editphno = (EditText)findViewById(R.id.contactnumber);
-                editadd = (EditText)findViewById(R.id.address);
-                editpass = (EditText)findViewById(R.id.password);
-                editcpass = (EditText)findViewById(R.id.cpassword);
+        editname = (EditText)findViewById(R.id.name);
+        editemail = (EditText)findViewById(R.id.email);
+        editdob = (EditText)findViewById(R.id.dob);
+        editreg = (EditText)findViewById(R.id.regno);
+        editphno = (EditText)findViewById(R.id.contactnumber);
+        editadd = (EditText)findViewById(R.id.address);
+        editpass = (EditText)findViewById(R.id.password);
+        editcpass = (EditText)findViewById(R.id.cpassword);
 
         aoi = (RadioGroup)findViewById(R.id.aoi);
 
@@ -99,7 +99,7 @@ public class SignupActivity extends AppCompatActivity {
             params.add(new BasicNameValuePair("address",address));
             params.add(new BasicNameValuePair("phno",phno));
             params.add(new BasicNameValuePair("reg",reg));
-            params.add(new BasicNameValuePair("pass",pass));
+            params.add(new BasicNameValuePair("password",pass));
             params.add(new BasicNameValuePair("aoi",aoi));
 
             Log.i("List","List Success");

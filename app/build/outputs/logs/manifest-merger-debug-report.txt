@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\CE070TX\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\2b044e18ecf68e4133759383907e1370\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\CE070TX\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\604ba096d417ffda7053d0fa46cde30e\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\CE070TX\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3d9603d53dd6917c0d83c4ca14c46354\AndroidManifest.xml:17:1-31:12
@@ -28,20 +28,20 @@ MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\
 MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\CE070TX\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\fbdc69839463b2134cdb6432e6aaf60e\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\CE070TX\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\a6ca3c817fd529a65fee40158220b0fa\AndroidManifest.xml:2:1-6:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\CE070TX\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\da5fd9d281ff1aa1c194cb5e07ae4a96\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:3:5-54
 		INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:2:11-69
@@ -58,7 +58,7 @@ ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\A
 	android:name
 		ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:7:22-64
 application
-ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:9:5-28:19
+ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:9:5-30:19
 MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\CE070TX\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\2b044e18ecf68e4133759383907e1370\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\CE070TX\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\2b044e18ecf68e4133759383907e1370\AndroidManifest.xml:7:5-20
 MERGED from [com.android.volley:volley:1.0.0] C:\Users\CE070TX\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\604ba096d417ffda7053d0fa46cde30e\AndroidManifest.xml:9:5-20
@@ -142,9 +142,17 @@ ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\A
 	android:name
 		ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:24:13-41
 activity#ctsstudentclub.sist.com.eventmanagement.SignupActivity
-ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:27:9-51
+ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:27:9-52
 	android:name
 		ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:27:19-49
+activity#ctsstudentclub.sist.com.eventmanagement.EaccountActivity
+ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:28:9-54
+	android:name
+		ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:28:19-51
+activity#ctsstudentclub.sist.com.eventmanagement.ForgetActivity
+ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:29:9-61
+	android:name
+		ADDED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml:29:19-49
 uses-sdk
 INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\CE070TX\AndroidStudioProjects\EventManagement\app\src\main\AndroidManifest.xml
