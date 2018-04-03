@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\CE070TX\\AndroidStudioProjects\\EventManagement\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CE070TX\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\9f0b37e28d7aae1764c8ac0c4e70f96d\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\CE070TX\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\4b088655fd7be0bda8c8016cb588a375\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\CE070TX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\779d49ea97537be37f29e618942f78c1\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\CE070TX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\0f3f14789a61430f5bcd4af1bad0f343\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

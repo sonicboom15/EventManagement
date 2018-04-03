@@ -26,7 +26,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".SignupActivity" />
         <activity android:name=".EaccountActivity" />
-        <activity android:name=".ForgetActivity"></activity>
+        <activity android:name=".ForgetActivity" />
+        <activity android:name=".AddeventActivity"></activity>
     </application>
 
 </manifest>
