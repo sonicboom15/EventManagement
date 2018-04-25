@@ -8,22 +8,35 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.view.menu.MenuView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import org.apache.http.message.BasicNameValuePair;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ListActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     Bundle bundle;
-
+    ListView listView;
+    List<Event> eventlist;
     String userid,role;
-
+    JSONParser jsonParser;
+    String URL = "rishikumar.online/event_manager/api.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +55,7 @@ public class ListActivity extends AppCompatActivity
         userid = bundle.getString("user_id");
         role = bundle.getString("role");
 
-
+        listView = (ListView) findViewById(R.id.listView);
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         if(role.equals("1")) {
             Menu nav_menu = navigationView.getMenu();
@@ -52,10 +65,9 @@ public class ListActivity extends AppCompatActivity
 
         Toast.makeText(getApplicationContext(),"Role ".concat(role).concat(" User id").concat(userid),Toast.LENGTH_SHORT).show();
 
-        ArrayAdapter<Event> adapter = new ArrayAdapter<>(this,
-                android.R.layout.content_list, eventList);
-        yourListView.setAdapter(adapter);
 
+        UpdateList updateList = new UpdateList();
+        updateList.execute();
     }
 
     @Override
@@ -75,7 +87,8 @@ public class ListActivity extends AppCompatActivity
         return true;
     }
 
-    @SuppressWarnings("StatementWithEmptyBody")
+    @SuppressWarnings("StatementWithEmptyBod" +
+            "y")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
@@ -113,69 +126,43 @@ public class ListActivity extends AppCompatActivity
         }
 
         @Override
-        protected JSONObject doInBackground(String... strings) {
-            return null;
+        protected JSONObject doInBackground(String... args) {
+                String needdata = new String("1");
+
+                ArrayList params = new ArrayList();
+                params.add(new BasicNameValuePair("needdata", needdata));
+
+            JSONObject result = jsonParser.makeHttpRequest(URL, "POST", params);
+
+            return result;
         }
         protected void onPostExecute(JSONObject result){
             try {
-                if (result != null) {
-                    Toast.makeText(getApplicationContext(), result.getString("message"), Toast.LENGTH_LONG).show();
-                    if (((result.getString("success")).equals("1"))) {
-                        List<Event> eventList = new ArrayList<>();
-                        JSONArray events = json
-                                .getJSONArray(TAG_COUPONS); // JSON Array
-                        for (JSONObject event : (Iterable<JSONObject>) events) {
-                            String etext = event.get("etext");
-                            String ename = event.get("ename");
-                            String userid = event.get("euserid");
-                            String sdate = event.get("sdate");
-                            String edate = event.get("edate");
-                            String addr = event.get("addr");
-                            eventList.add(new Event(ename,etext,euserid,sdate,edate,addr));
-                        }
-                    }
-
-                }
-            }catch (JSONException e){
-                e.printStackTrace();;
+                Log.i("Json", result.getString("event_name"));
+            }catch (Exception e){
+                e.printStackTrace();
             }
         }
     }
-    public class Event {
-        private String eventname;
-        private String eventtext;
-        private String userid;
-        private String sdate;
-        private String edate;
-        private String addr;
+    class EventAdapter extends ArrayAdapter<Event>{
+        List<Event> eventList;
 
-
-        public Coupon(String ename,String etext,String euserid,String sdate,String edate,String addr) {
-            eventname = ename;
-            eventtext = etext;
-            userid = euserid;
-            sdate = this.sdate;
-            edate = this.edate;
-            addr = this.addr;
+        public EventAdapter(List<Event> eventList){
+            super(ListActivity.this, R.layout.layout_event_list, eventList);
+            this.eventList = eventList;
         }
 
-        public String getEventName() {
-            return eventname;
-        }
-        public String getEventText() {
-            return eventtext;
-        }
-        public String getUserid() {
-            return userid;
-        }
-        public String getSdate() {
-            return sdate;
-        }
-        public String getEdate(){
-            return edate;
-        }
-        public String getAddr(){
-            return addr;
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent){
+            LayoutInflater inflater = getLayoutInflater();
+            View listViewItem = inflater.inflate(R.layout.layout_event_list, null, true);
+
+            TextView textViewName = listViewItem.findViewById(R.id.textViewName);
+
+            final Event event = eventList.get(position);
+
+            textViewName.setText(event.getEventname());
+            return listViewItem;
         }
     }
 }
